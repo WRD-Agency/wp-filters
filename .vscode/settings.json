@@ -1,0 +1,9 @@
+{
+	"editor.defaultFormatter": "valeryanm.vscode-phpsab",
+	"[php]": {
+		"editor.defaultFormatter": "valeryanm.vscode-phpsab"
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	}
+}

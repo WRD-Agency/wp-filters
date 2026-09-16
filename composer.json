@@ -1,0 +1,19 @@
+{
+	"name": "wrd/wp-filters",
+	"description": "Adds complex filtering options to the WordPress REST API by registering them in PHP.",
+	"type": "library",
+	"license": "GNU General Public License, version 2",
+	"authors": [
+		{
+			"name": "Kyle Cooper",
+			"email": "kyle@webresultsdirect.com"
+		}
+	],
+	"autoload": {
+		"files": [
+			"src/index.php"
+		]
+	},
+	"minimum-stability": "dev",
+	"require": {}
+}
