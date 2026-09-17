@@ -26,7 +26,7 @@ function loop_add_filters_to_main_query( $args ) {
 	$filters = get_post_filters( $args['post_type'] );
 
 	foreach ( $filters as $filter ) {
-		if ( ! array_key_exists( $filter['name'], $_GET ) ) {
+		if ( empty( $_GET[ $filter['name'] ] ) ) {
 			continue;
 		}
 
